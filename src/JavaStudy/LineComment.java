@@ -1,4 +1,4 @@
-package FirstJavaProgram;
+package JavaStudy;
  // 파일이름 : BlcokComment.Java
  // 작성자 : 김현중
  // 작성일 : 2023년08월30일
