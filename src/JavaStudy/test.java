@@ -21,7 +21,15 @@ public class test {
         	double pi = 3.1415;
         	int wholeNumber = (int)pi;
         	System.out.println((int)pi);
-        	              	
         	
+        	switch(2) {
+        	case 1:
+        	case 2:
+        	case 3:
+        		System.out.println("case 1, 2, 3");
+        	    break;
+        	default:
+        		System.out.println("default");
         	}
+  	}
 }
