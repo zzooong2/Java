@@ -1,22 +1,17 @@
 package JavaStudy;
-public class Circle {
-	private double rad = 0;
-	final double PI = 3.14;
+class Circle {
+	static final double PI = 3.1415; // 변하지 않는, 참조가 목적인 값
+	private double radius;
 	
-	public Circle(double r) {
-		setRad(r);
+	Circle(double rad) {
+		radius = rad;
 	}
-	public void setRad(double r) {
-		if(r < 0) {
-			rad = 0;
-			return;
-		}
-		rad = r;
+	void showPerimeter() {
+		double peri = (radius * 2) * PI;
+		System.out.println("둘레: " + peri);
 	}
-	public double getRad() {
-		return rad;
-	}
-	public double getArea() {
-		return (rad * rad) * PI; // 원의 넓이 반환
+	void showArea() {
+		double area = (radius * radius) * PI;
+		System.out.println("넓이: " + area);
 	}
 }
