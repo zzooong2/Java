@@ -1,14 +1,8 @@
 package JavaStudy;
 class Practice {
-    public static void main(String[] args) {
-        int count = 0;
-        
-        for(int num = 1; num <= 100; num++) {
-        	if(((num % 5) != 0) || ((num % 7) != 0))
-        		continue;
-        	count++;
-        	System.out.println(num);
-        }
-        System.out.println("count : " + count);
-    }
+	public static void main(String[] args) {
+		StringBuilder sb = new StringBuilder("990925-1012999");
+		sb.replace(6, 7, " ");
+		System.out.println(sb.toString());
+	}
 }
