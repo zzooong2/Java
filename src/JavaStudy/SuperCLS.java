@@ -1,12 +1,8 @@
 package JavaStudy;
 class SuperCLS {
+	protected static int count = 0; // protected는 하위 클래스 접근을 허용
+	
 	public SuperCLS() {
-		System.out.println("con : SuperCLS()");
-	}
-	public SuperCLS(int i) {
-		System.out.println("con : SuperCLS(int i)");
-	}
-	public SuperCLS(int i, int j) {
-		System.out.println("con : SuperCLS(int i, int j)");
+		count++;
 	}
 }

@@ -1,14 +1,7 @@
 package JavaStudy;
-class SubClS extends SuperCLS {
-	public SubClS() { 
-		System.out.println("con : SubCLS()");
-	}
-	public SubClS(int i) {
-		super(i);
-		System.out.println("con : SubCLS(int i)");
-	}
-	public SubClS(int i, int j) {
-		super(i, j);
-		System.out.println("con : SubCLS(int i, int j)");
+class SubCLS extends SuperCLS {
+	public void showCount() {
+		// 상위 클래스에 위치한 클래스 변수 count에 접근
+		System.out.println(count);
 	}
 }
