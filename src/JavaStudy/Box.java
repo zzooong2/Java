@@ -1,11 +1,16 @@
 package JavaStudy;
 class Box {
-	private String conts;
+	 protected String contents;
+	 protected int boxNum;
 	
-	Box(String cont) {
-		this.conts = cont;
+	Box(int num, String cont) {
+		boxNum = num;
+		contents = cont;
 	}
-	public String toString(String[] args) {
-		return conts;
+	public int geBoxNum() {
+		return boxNum;
+	}
+	public String toString() {
+		return contents;
 	}
 }
