@@ -1,6 +1,11 @@
 package JavaStudy;
 class Box {
- public static void main(String[] args) {
-		System.out.printf("정수는 %d,실수는 %f, 문자는%c", 12, 24.5, 'A');
+	private String conts;
+	
+	Box(String cont) {
+		this.conts = cont;
+	}
+	public String toString(String[] args) {
+		return conts;
 	}
 }
