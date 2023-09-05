@@ -11,4 +11,4 @@ class SimpleBox {
 	int getData() {
 		return this.data;
 	}
-}
+} 
