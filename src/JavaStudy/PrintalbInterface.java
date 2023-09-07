@@ -2,7 +2,7 @@ package JavaStudy;
 
 class PrintalbInterface { 
 	public static void main(String[] args) {
-		Printable prn = new Printer();
+		Printable prn = new Printer1();
 		prn.print("Hello Java");
 	}
 }
