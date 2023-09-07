@@ -5,4 +5,3 @@ class NullPointer {
 		System.out.println(str);
 		int len = str.length();
 	}
-]
