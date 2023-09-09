@@ -5,6 +5,6 @@ class Main {
 		Rocket rocket = new Rocket(0, 0);
 		rocket.shootRocket();
 	
-		System.out.println("옘병 이제야 되네");
+		System.out.println("로켓 발사~");
 	}
 }
