@@ -1,6 +1,6 @@
 package JavaStudy;
 
-class BusinessMan extends Man {
+class BusinessMan extends Main {
 	String company;
 	String position;
 	
