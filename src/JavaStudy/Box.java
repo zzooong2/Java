@@ -1,6 +1,12 @@
 package JavaStudy;
 class Box {
-	public void Wrap() {
-		System.out.println("Simple Wrapping");
+	private String conts;
+	
+	Box(String cont){
+		this.conts = cont;
 	}
+	
+    public String toString() {
+    	return conts;
+    }
 }
