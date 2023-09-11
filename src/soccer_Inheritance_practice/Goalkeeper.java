@@ -1,4 +1,4 @@
-package soccer;
+package soccer_Inheritance_practice;
 
 public class Goalkeeper extends Player {
 	public void Goalkeeper() {

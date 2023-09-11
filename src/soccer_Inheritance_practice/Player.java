@@ -1,4 +1,4 @@
-package soccer;
+package soccer_Inheritance_practice;
 
 public class Player {
 	String name;

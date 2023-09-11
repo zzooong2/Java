@@ -1,4 +1,4 @@
-package soccer;
+package soccer_Inheritance_practice;
 
 public class Deffender extends Player {
 	public void Deffender() {
