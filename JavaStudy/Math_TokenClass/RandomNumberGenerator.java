@@ -1,4 +1,4 @@
-package WrapperClass;
+package Math_TokenClass;
 
 import java.util.Random;
 

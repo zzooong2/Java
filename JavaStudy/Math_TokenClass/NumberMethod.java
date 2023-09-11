@@ -1,4 +1,4 @@
-package WrapperClass;
+package Math_TokenClass;
 
 class NumberMethod {
 	public static void main(String[] args) {

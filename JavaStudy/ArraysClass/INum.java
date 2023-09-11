@@ -1,4 +1,4 @@
-package WrapperClass;
+package ArraysClass;
 
 public class INum {
 	private int num;

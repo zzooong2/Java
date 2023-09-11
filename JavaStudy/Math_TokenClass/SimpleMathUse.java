@@ -1,4 +1,4 @@
-package WrapperClass;
+package Math_TokenClass;
 
 class SimpleMathUse {
 	public static void main(String[] args) {
