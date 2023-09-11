@@ -1,3 +1,0 @@
-package JavaStudy;
-
-interface Lower {}
