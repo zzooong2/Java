@@ -11,14 +11,11 @@ public class Player {
 	public static void main(String[] args) {
 		Attacker attacker = new Attacker();
 		attacker.Attacker();
-		attacker.run();
-		attacker.shoot();
-		attacker.pass();
-		
+
 		Deffender deffender = new Deffender();
 		deffender.Deffender();
-		deffender.run();
-		deffender.shoot();
-		deffender.pass();
+		
+		Goalkeeper goalkeeper = new Goalkeeper();
+		goalkeeper.Goalkeeper();
 	}
 }

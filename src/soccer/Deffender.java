@@ -9,14 +9,21 @@ public class Deffender extends Player {
 		this.height = 183;
 		
 		System.out.println("이름:" + name + "국적:" + country + "포지션:" + position + "나이:" + age + "키:" + height);
+		
+		Deffender df = new Deffender();
+		df.run();
+		df.shoot();
+		df.pass();
+	
+	
 	}
 	public void run() {
-		System.out.println("달리기");
+		System.out.println("빠른 달리기");
 	}
 	public void shoot() {
 		System.out.println("슛");
 	}
 	public void pass() {
-		System.out.println("패스");
+		System.out.println("정확한 패스");
 	}
 }
