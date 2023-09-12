@@ -1,6 +1,6 @@
 package Generics;
 
-class Box<T extends Number> {
+class Box<T> {
 	private T ob;
 	
 	public void set(T o) {
