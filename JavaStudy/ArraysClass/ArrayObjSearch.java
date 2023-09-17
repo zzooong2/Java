@@ -11,7 +11,7 @@ public class ArrayObjSearch {
 		
 		Arrays.sort(ar); // 탐색에 앞서 정렬
 		int idx = Arrays.binarySearch(ar, new Person("who are you?", 37));
-		System.out.println(ar[idxd]);
+		System.out.println(ar[idx]);
 	}
 
 }
