@@ -1,11 +1,11 @@
-package CollectionFramwork;
+package CollectionFramwork_List;
 
 import java.util.List;
-import java.util.ArrayList;
+import java.util.LinkedList;
 
-public class ArrayListCollection {
+public class LinkedListCollection {
 	public static void main(String[] args) {
-		List<String> list = new ArrayList<>(); // 컬렉션 인스턴스 생성
+		List<String> list = new LinkedList<>(); // 컬렉션 인스턴스 생성
 		
 		// 컬렉션 인스턴스에 문자열 인스턴스 저장
 		list.add("Toy");
@@ -26,6 +26,5 @@ public class ArrayListCollection {
 		System.out.println();
 		
 	}
-
 
 }

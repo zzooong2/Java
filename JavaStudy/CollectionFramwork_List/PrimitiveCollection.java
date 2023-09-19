@@ -1,4 +1,4 @@
-package CollectionFramwork;
+package CollectionFramwork_List;
 
 import java.util.Iterator;
 import java.util.LinkedList;
