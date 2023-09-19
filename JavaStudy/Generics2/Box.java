@@ -5,9 +5,5 @@ public class Box<T> {
 	public void set (T o) { ob = o; }
 	public T get() { return ob; }
 	
-	@Override
-	public String toString() {
-		return ob.toString();
-	}
-
 }
+
