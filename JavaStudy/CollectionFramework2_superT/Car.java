@@ -1,4 +1,4 @@
-package CollectionFramework2;
+package CollectionFramework2_superT;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -7,18 +7,12 @@ import java.util.Collections;
 import java.util.Comparator;
 
 
-public class Car implements Comparable<Car>{
-	int disp; // 배기량
-	
+public class Car{
+	protected int disp; // 배기량
 	public Car(int d) { disp = d; }
 	
 	@Override
 	public String toString() {
 		return "cc: " + disp;
 	}
-	@Override
-	public int compareTo(Car o) {
-		return disp - o.disp;
-	}
-
 }
