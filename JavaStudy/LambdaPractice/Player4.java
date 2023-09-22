@@ -6,6 +6,6 @@ public class Player4 {
 	}
 	
 	public static void main(String[] args) {
-		Soccer((s) -> {System.out.println(s);}, "미친 감아차기");
+		Soccer((s) -> {System.out.println(s);}, "감아차기");
 	}
 }
