@@ -6,12 +6,12 @@ import java.util.stream.Stream;
 
 public class StreamOfStream {
 	public static void main(String[] args) {
-		Stream.of(111, 22, 33, 44) // ex 1
+		Stream.of(111, 22, 33, 44) // ex1
 		       .forEach(n -> System.out.print(n + '\t'));
 		System.out.println();
 		
 		
-		Stream.of("So Simple") // ex 2
+		Stream.of("So Simple") // ex2
 	          .forEach(s -> System.out.print(s + '\t'));
 	    System.out.println();
 	    
