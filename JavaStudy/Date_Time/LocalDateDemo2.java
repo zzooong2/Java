@@ -15,7 +15,9 @@ public class LocalDateDemo2 {
 		
 		// 크리스마스까지 앞으로 며칠?
 		Period left = Period.between(today, christmas);
-		System.out.println("크리스마스까지 앞으로 : " + left.getMonths() + " 개월 " + left.getDays() + " 일 ");
+		System.out.println("크리스마스까지 앞으로 : " 
+		                    + left.getMonths() + " 개월 "
+				              + left.getDays() + " 일 ");
 		
 		// 올 해의 크리스마스 이브
 		LocalDate eve = christmas.minusDays(1);
