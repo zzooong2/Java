@@ -9,9 +9,9 @@ public class EnglandPremierLeague {
 		Saka saka = new Saka();
 		
 	    soccer.print();
-		son.foolball();
-		fb.football();
-		saka.football();
+		son.print();
+		fb.print();
+		saka.print();
 		
 	}
 	
