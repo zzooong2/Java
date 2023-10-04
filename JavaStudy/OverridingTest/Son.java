@@ -1,4 +1,4 @@
-package OverloadingTest;
+package OverridingTest;
 
 public class Son extends Soccer{
 	@Override

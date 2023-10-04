@@ -1,4 +1,4 @@
-package OverloadingTest;
+package OverridingTest;
 
 public class Soccer {
 	public void print() {

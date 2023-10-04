@@ -1,4 +1,4 @@
-package OverloadingTest;
+package OverridingTest;
 
 public class BrunoFernandes extends Soccer {
 	@Override
