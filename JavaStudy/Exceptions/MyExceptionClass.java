@@ -22,7 +22,6 @@ public class MyExceptionClass {
 		
 		if (age < 0)
 			throw new ReadAgeException();
-		
 		return age;
 	}
 }
