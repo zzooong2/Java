@@ -17,8 +17,14 @@ public class MemberInner {
 		o1m1.add(5);
 		System.out.println(o1m2.get());
 		
+		o1m2.add(8);
+		System.out.println(o1m2.get());
+		
 		// o2 기반으로 생성된 두 인스턴스의 메소드 호출
 		o2m1.add(7);
+		System.out.println(o2m2.get());
+		
+		o2m2.add(1);
 		System.out.println(o2m2.get());
 	}
 
