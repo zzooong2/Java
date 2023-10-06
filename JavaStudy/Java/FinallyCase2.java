@@ -20,9 +20,9 @@ class FinallyCase2 {
 			e.printStackTrace();
 		}
 		finally {
-			try {
-				(writer ! = null)
-				writer.close();		
+			 try {
+		    		if(writer != null)
+		     		writer.close();		
 		}
 		catch(IOException e) {
 			e.printStackTrace();

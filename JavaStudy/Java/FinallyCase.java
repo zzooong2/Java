@@ -21,7 +21,7 @@ class FinallyCase {
 		}
 		finally {
 			if(writer != null)
-				writer.close();		
+				writer.close();
 		}
 	}
 }
