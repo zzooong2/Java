@@ -14,8 +14,11 @@ public class Practice {
 		list.add("CHRISTIAN ERICKSEN");
 		list.add("RASMUS HOJLUND");
 		list.add("ALEJANDRO GARNACHO");
+		list.add("ANTONY");
+		list.add("BRUNO FERNANDES");
 		
 		Comparator<String> cmp = new Comparator<String>() {
+			@Override
 			public int compare(String s1, String s2) {
 				return s1.length() - s2.length();
 			}
