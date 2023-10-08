@@ -1,6 +1,6 @@
 package LambdaPractice;
 
-public interface Football {
+interface Football {
 	void print(String s);
 
 }
