@@ -1,20 +1,19 @@
 package AnonymousInner;
 
-import java.util.List;
+import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.List;
 import java.util.Collections;
 
-public class PlayerComparator {
+public class Practice {
 	public static void main(String[] args) {
 		List<String> list = new ArrayList<>();
-		list.add("McTOMINAY");
-		list.add("BRUNO FERNANDES");
-		list.add("CASEMIRO");
-		list.add("ONANA");
-		list.add("RAPHAEL VARANE");
-		list.add("MARCUS RASHFORD");
-		list.add("ANTONY");
+		list.add("SCOTT MCTOMINAY");
+		list.add("ERIC TEN HAG");
+		list.add("CHRISTIAN ERICKSEN");
+		list.add("RASMUS HOJLUND");
+		list.add("ALEJANDRO GARNACHO");
 		
 		Comparator<String> cmp = new Comparator<String>() {
 			public int compare(String s1, String s2) {
@@ -24,6 +23,7 @@ public class PlayerComparator {
 		
 		Collections.sort(list, cmp);
 		System.out.println(list);
+		
 	}
 
 }
