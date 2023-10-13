@@ -2,7 +2,7 @@ package ExtendsPractice;
 
 public class Hero {
 	public static void main(String[] args) {
-		Physical man = new Physical("Scott Mctominay", 193, 90);
+		Information man = new Information("Scott Mctominay", 193, 90, "Manchester United");
 		man.tellYourInfo();
 	}
 
