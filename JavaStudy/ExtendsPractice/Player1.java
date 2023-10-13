@@ -1,9 +1,14 @@
 package ExtendsPractice;
 
 public class Player1 {
-	public Player1() {
-		System.out.println("My name is Scott Mctominay");
-		System.out.println("My strong point is goal decisiveness");
+	String name;
+	
+	public Player1(String name) {
+		this.name = name;
+	}
+	
+	public void tellYourName() {
+		System.out.println("My name is " + name);
 	}
 
 }
