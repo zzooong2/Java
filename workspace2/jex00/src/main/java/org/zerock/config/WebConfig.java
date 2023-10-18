@@ -6,20 +6,20 @@ public class WebConfig extends AbstractAnnotationConfigDispatcherServletInitiali
 	
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
-		// TODO Auto-generated method stub
-		return new Class[] {Rootconfig.class};
+		return new Class[] {RootConfig.class};
 	}
 	
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
-		// TODO Auto-generated method stub
-		return null;		
+		//TODO Auto-generated method stub
+		return null;
 	}
 	
 	@Override
 	protected String[] getServletMappings() {
-		// TODO Auto-generated method stub
+		//TODO Auto-generated method stub
 		return null;
 	}
+	
 
 }
