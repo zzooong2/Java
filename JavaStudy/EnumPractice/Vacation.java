@@ -5,5 +5,6 @@ public class Vacation {
 		System.out.println(Freinds.MINSU);
 		System.out.println(Freinds.HAJI);
 		System.out.println(Freinds.ARSENAL);
+		System.out.println(Freinds.ARSENAL);
 	}
 }
