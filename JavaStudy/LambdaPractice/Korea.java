@@ -8,7 +8,7 @@ public class Korea {
 	}
 	
 	public static void main(String[] args) {
-	     showString((s) -> { System.out.println(country + s); }, " 항저우 올림픽 축구 금메달!!");
+	     showString((s) -> { System.out.println(country + s); }, " 항저우 올림픽 축구 금메달!! 진짜 땄음 ㅋㅋ");
 	}
 
 }
