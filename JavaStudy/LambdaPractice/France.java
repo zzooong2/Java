@@ -8,7 +8,7 @@ public class France {
 	}
 
 	public static void main(String[] args) {
-		showString((s) -> { System.out.println(country + s); },"의 아트사커 다 어디감??");
+		showString((s) -> { System.out.println(country + s); },"의 그리즈만 최다출장 기록보유자....");
 		
 	}
 
